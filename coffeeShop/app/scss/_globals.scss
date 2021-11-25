@@ -1,6 +1,9 @@
 html {
   font-size: 100%;
   box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  overflow-x: hidden;
 }
 
 *,
@@ -35,6 +38,7 @@ h1 {
   font-weight: 300;
   font-size: $font-medium;
   color: #ffffff;
+  padding-top: 2rem;
 
   @media (max-width: 769px) {
     font-size: 24px;
@@ -67,6 +71,9 @@ h3 {
 p {
   font-family: "Roboto", sans-serif;
   line-height: 1.465rem;
+  padding-top: 0.5rem;
+  padding-bottom: 2rem;
+  margin: 0px;
 }
 
 button {
@@ -87,9 +94,10 @@ button {
 }
 
 .banner {
-  background-image: url(/coffeeShop/images/pexels-nao-triponez-129207.jpg);
-  background-size: cover;
-  background-position: right center;
+  background-image: url(/coffeeshop/practiseproject/coffeeShop/images/pexels-nao-triponez-129207.jpg);
+  background-size: 130%;
+  background-position: -20% 55%;
+
   height: 75vh;
 
   @media (max-width: 769px) {
@@ -101,10 +109,11 @@ button {
 
 .bannerText {
   padding-bottom: 2rem;
+  width: 30rem;
 }
 
 .whoImage {
-  background-image: url(/coffeeShop/images/pexels-kaboompics-com-6347.jpg);
+  background-image: url(/coffeeshop/practiseproject/coffeeShop/images/pexels-kaboompics-com-6347.jpg);
   background-size: cover;
   background-position: center center;
   height: 8.875rem;
@@ -129,13 +138,15 @@ button {
 
 //Product images
 #picDark {
-  background-image: url(/coffeeShop/images/pexels-igor-haritanovich-1695052.jpg);
+  background-image: url(/coffeeshop/practiseproject/coffeeShop/images/pexels-igor-haritanovich-1695052.jpg);
 }
 #picAromatic {
-  background-image: url(/coffeeShop/images/pexels-igor-haritanovich-1695052.jpg);
+  background-image: url(/coffeeshop/practiseproject/coffeeShop/images/pexels-igor-haritanovich-1695052.jpg);
+  background-size: 100%;
 }
 #picExotic {
-  background-image: url(/coffeeShop/images/pexels-igor-haritanovich-1695052.jpg);
+  background-image: url(/coffeeshop/practiseproject/coffeeShop/images/pexels-igor-haritanovich-1695052.jpg);
+  background-size: 140%;
 }
 
 footer {
@@ -144,10 +155,33 @@ footer {
   > h4 {
     color: #ffffff;
     font-family: "Oswald", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 300;
+    padding-top: 2rem;
   }
   > p {
     color: #ffffff;
     font-size: 1rem;
     line-height: 1.1719rem;
   }
+}
+
+.socials {
+  display: flex;
+  padding-bottom: 2rem;
+}
+
+.instagram {
+  width: 1.5rem;
+  height: 1.5rem;
+  background-image: url(/coffeeshop/practiseproject/coffeeShop/images/instagram-logo-1155105798346ilx9kcc6.png);
+  background-size: cover;
+  border-radius: 6px;
+}
+
+.facebook {
+  width: 2.0681rem;
+  height: 1.5rem;
+  background-image: url(/coffeeshop/practiseproject/coffeeShop/images/facebook-logo-484.png);
+  background-size: cover;
 }
