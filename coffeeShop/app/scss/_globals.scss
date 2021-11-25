@@ -1,0 +1,153 @@
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-weight: 400;
+}
+
+h1 {
+  font-family: "Oswald", sans-serif;
+  font-size: $font-xlarge;
+  color: #ffffff;
+  font-weight: 200;
+  padding: 0px;
+  margin: 0px;
+
+  @media (max-width: 769px) {
+    font-size: 48px;
+    font-weight: 300;
+    width: 70%;
+  }
+}
+
+.flavourText {
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  font-size: $font-medium;
+  color: #ffffff;
+
+  @media (max-width: 769px) {
+    font-size: 24px;
+    font-weight: 300;
+    width: 11.75rem;
+  }
+}
+
+a,
+a:visited,
+a:hover {
+  text-decoration: none;
+  font-family: "Oswald", sans-serif;
+  color: #ffffff;
+}
+
+h2 {
+  font-size: $font-large;
+  font-family: "Oswald", sans-serif;
+
+  @media (max-width: 769px) {
+    font-size: 3rem;
+  }
+}
+
+h3 {
+  font-family: "Oswald", sans-serif;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.465rem;
+}
+
+button {
+  font-family: "Oswald", sans-serif;
+}
+
+.padding {
+  &--all {
+    padding-top: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+  }
+  &--x {
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+}
+
+.banner {
+  background-image: url(/coffeeShop/images/pexels-nao-triponez-129207.jpg);
+  background-size: cover;
+  background-position: right center;
+  height: 75vh;
+
+  @media (max-width: 769px) {
+    background-color: #010101;
+    background-image: none;
+    height: inherit;
+  }
+}
+
+.bannerText {
+  padding-bottom: 2rem;
+}
+
+.whoImage {
+  background-image: url(/coffeeShop/images/pexels-kaboompics-com-6347.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 8.875rem;
+}
+
+.products {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+
+  @media (max-width: 769px) {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.productPic {
+  width: 12.5rem;
+  height: 12.5rem;
+  border-radius: 200px;
+}
+
+//Product images
+#picDark {
+  background-image: url(/coffeeShop/images/pexels-igor-haritanovich-1695052.jpg);
+}
+#picAromatic {
+  background-image: url(/coffeeShop/images/pexels-igor-haritanovich-1695052.jpg);
+}
+#picExotic {
+  background-image: url(/coffeeShop/images/pexels-igor-haritanovich-1695052.jpg);
+}
+
+footer {
+  background-color: #1e1e1e;
+
+  > h4 {
+    color: #ffffff;
+    font-family: "Oswald", sans-serif;
+  }
+  > p {
+    color: #ffffff;
+    font-size: 1rem;
+    line-height: 1.1719rem;
+  }
+}
