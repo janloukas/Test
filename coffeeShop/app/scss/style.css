@@ -84,10 +84,6 @@ p {
   margin: 0px;
 }
 
-button {
-  font-family: "Oswald", sans-serif;
-}
-
 .padding--all {
   padding-top: 2rem;
   padding-right: 2rem;
@@ -167,6 +163,15 @@ button {
 #picExotic {
   background-image: url(/coffeeshop/practiseproject/coffeeShop/images/pexels-igor-haritanovich-1695052.jpg);
   background-size: 140%;
+}
+
+form {
+  font-family: "Oswald", sans-serif;
+  font-size: 1.5rem;
+}
+
+.submit {
+  font-family: "Oswald", sans-serif;
 }
 
 footer {
